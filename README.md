@@ -1,5 +1,6 @@
+<center>
 # Gene Length Prediction using PyTorch
-
+</center>
 <center>
 <img src="extras/neural_network.jpg" width="80%" alt="Genome Architecture">
 </center>

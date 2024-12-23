@@ -40,38 +40,6 @@ The processed dataset should include these features and the target variable (gen
    pip install -r requirements.txt
    ```
 
-## Usage
-1. Preprocess your dataset and place it in the `data/` directory.
-2. Train the model:
-   ```bash
-   python train.py --config configs/default.yaml
-   ```
-3. Evaluate the model:
-   ```bash
-   python evaluate.py --checkpoint models/best_model.pth
-   ```
-4. Visualize results:
-   ```bash
-   python visualize.py --results_dir outputs/
-   ```
-
-## File Structure
-```
-.
-|-- data/                     # Directory for input datasets
-|-- models/                   # Saved models
-|-- configs/                  # Configuration files for training
-|-- src/                      # Source code
-|   |-- dataset.py            # Data loading and preprocessing
-|   |-- model.py              # PyTorch model architecture
-|   |-- train.py              # Training script
-|   |-- evaluate.py           # Evaluation script
-|   |-- visualize.py          # Visualization script
-|-- outputs/                  # Directory for results and logs
-|-- requirements.txt          # Python dependencies
-|-- README.md                 # Project documentation
-```
-
 ## Results
 Key performance metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared are reported for model evaluation. 
 

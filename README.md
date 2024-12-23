@@ -1,5 +1,10 @@
 # Gene Length Prediction using PyTorch
 
+<center>
+<img src="extras/neural_network.jpg" width="80%" alt="Genome Architecture">
+</center>
+---
+
 This project implements a machine learning model using PyTorch to predict gene lengths based on various biological features and physical attributes. The features and attributes are derived from analyses conducted in a prior project: [Biological vs Physical Genome](https://github.com/h4rrye/biological_vs_physical_genome).
 
 ## Overview
